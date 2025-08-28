@@ -38,7 +38,7 @@ function CounterNumber() {
 						className="btn btn-decrease"
 						onClick={() => getCount('decrease')}
 					>
-						-1
+						decrease
 					</button>
 					<button
 						className="btn btn-reset"
@@ -50,7 +50,7 @@ function CounterNumber() {
 						className="btn btn-increase"
 						onClick={() => getCount('increase')}
 					>
-						+1
+						increase
 					</button>
 				</div>
 			</div>
