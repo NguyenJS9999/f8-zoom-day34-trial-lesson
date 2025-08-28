@@ -30,7 +30,7 @@ function CounterNumber() {
 					}}
 					className="result"
 				>
-					{count} - { count > 0 ? 'Dương': count < 0 ? 'Âm' : 'Bằng không'}
+					{count} là { count > 0 ? 'Dương': count < 0 ? 'Âm' : 'Bằng không'}
 				</div>
 
 				<div className="form-count">
@@ -44,7 +44,6 @@ function CounterNumber() {
 						className="btn btn-reset"
 						onClick={() => getCount('reset')}
 					>
-						{' '}
 						Reset
 					</button>
 					<button
